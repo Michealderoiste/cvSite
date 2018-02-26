@@ -1,0 +1,9 @@
+p {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}
+p::first-letter {
+    font-size: 20px;
+}
