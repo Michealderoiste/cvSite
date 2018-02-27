@@ -1,12 +1,11 @@
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-<app-header></app-header>
-<div class="container">
-    <div class="container-fluid">
-        <app-overview></app-overview>
-        <app-education></app-education>
-        <app-work></app-work>
-        <app-miscellaneous></app-miscellaneous>
-    </div>
+
+<app-menu></app-menu>
+<div class="container-fluid p-0">
+    <section class="resume-section p-3 p-lg-5 d-flex d-column text-justify">
+        <router-outlet></router-outlet>
+    </section>
 </div>
+
+
 
 
