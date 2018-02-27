@@ -4,3 +4,9 @@ body {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;;
     font-weight: 400;
 }
+img.logos
+{
+    max-width:150px;
+    margin: auto;
+    display:block;
+}
